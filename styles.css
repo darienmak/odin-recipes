@@ -1,9 +1,82 @@
 body {
-  background: rgb(210, 121, 121);
+  background: rgb(255, 208, 161);
   font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 10px;
+  margin-bottom: 15px;
+  padding: 30px;
+  border: 1px solid black;
+  font-size: 64px;
+  background-color: bisque;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  margin-left: 10px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+  filter: drop-shadow(-5px 4px 8px rgba(0,0,0,0.34));
+}
+
+p {
+  font-family:cursive;
+  text-align: center;
+}
+
+.paragraph-box {
+  margin: 10px;
+  background-color: rgb(255, 224, 190);
+  border: 2px solid black;
+}
+
+button {
+  font-size: 24px;
+}
+
+.home-button {
+  margin: 10px;
+  font-size: 28px;
+}
+
+.home-div {
+  display: inline-block;
+}
+
+.recipe-container {
+  text-align: center;
+}
+
+.home-div#hotpocket-box {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+li {
+  font-size: 20px;
+  margin: 5px 0px;
 }
 
 ul {
-    width: 500px;
-    background-color: yellow;
+  background-color: rgb(255, 212, 156);
+  border: 1px double rgb(0, 0, 0);
+  border-radius: 2%;
+}
+
+ol {
+  background-color: rgb(255, 212, 156);
+  border: 1px double rgb(0, 0, 0);
+  border-radius: 2%;
+}
+
+.important {
+  font-weight: bold;
+  background-color: yellow;
 }
