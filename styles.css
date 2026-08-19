@@ -9,13 +9,13 @@ h1 {
   margin-bottom: 15px;
   padding: 30px;
   border: 1px solid black;
-  font-size: 64px;
+  font-size: 128px;
   background-color: bisque;
   text-align: center;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 64px;
   margin-left: 10px;
 }
 
@@ -38,12 +38,12 @@ p {
 }
 
 button {
-  font-size: 24px;
+  font-size: 48px;
 }
 
 .home-button {
   margin: 10px;
-  font-size: 28px;
+  font-size: 56px;
 }
 
 .home-div {
@@ -60,7 +60,7 @@ button {
 }
 
 li {
-  font-size: 20px;
+  font-size: 40px;
   margin: 5px 0px;
 }
 
