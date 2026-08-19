@@ -9,7 +9,7 @@ h1 {
   margin-bottom: 15px;
   padding: 30px;
   border: 1px solid black;
-  font-size: 128px;
+  font-size: 120px;
   background-color: bisque;
   text-align: center;
 }
@@ -36,15 +36,16 @@ p {
   margin: 10px;
   background-color: rgb(255, 224, 190);
   border: 2px solid black;
+  filter: drop-shadow(-4px 4px 8px rgba(0, 0, 0, 0.3));
 }
 
 button {
-  font-size: 48px;
+  font-size: 32px;
 }
 
-.home-button {
+.home-buttons {
   margin: 10px;
-  font-size: 56px;
+  font-size: 36px;
 }
 
 .home-div {
@@ -61,20 +62,23 @@ button {
 }
 
 li {
-  font-size: 40px;
+  font-size: 35px;
   margin: 5px 0px;
+  margin-left: 0.5em;
 }
 
 ul {
   background-color: rgb(255, 212, 156);
   border: 1px double rgb(0, 0, 0);
   border-radius: 2%;
+  filter: drop-shadow(-4px 4px 8px rgba(0, 0, 0, 0.3));
 }
 
 ol {
   background-color: rgb(255, 212, 156);
   border: 1px double rgb(0, 0, 0);
   border-radius: 2%;
+  filter: drop-shadow(-4px 4px 8px rgba(0, 0, 0, 0.3));
 }
 
 .important {
