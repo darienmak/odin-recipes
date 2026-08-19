@@ -1,0 +1,9 @@
+body {
+  background: rgb(210, 121, 121);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    width: 500px;
+    background-color: yellow;
+}
